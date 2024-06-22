@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+section {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.taffic{
+display: flex;
+width: 350px;
+height: 600px;
+background-color: #3B3D3F;
+padding-top: 20px;
+}
+
+
+ul {
+background-color: #464748;
+width: 250px;
+height: 550px;
+/* margin: 0 auto; */
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 0 auto;
+
+}
+
+
+button{
+border: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+display: flex;
+}
+
+.red{
+    background-color: rgba(249, 96, 49, 0.471);
+}
+
+.yellow{
+    background-color: rgb(238, 255, 0);
+}
+button:nth-child(1){
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5;
+}
+
+button:nth-child(2){
+    background-color: rgb(246, 255, 0);
+    opacity: 0.5;
+}
+
+button:nth-child(3){
+    background-color: rgb(56, 240, 19);
+    opacity: 0.5;
+}
+
+.sv{
+background-image: url(./images/qizil.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 800px;
+height: 600px;
+}
+
+
+.text{
+    padding-top: 130px;
+    background-color: transparent;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    opacity: 1;
+    font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+.sr{
+    background-image: url(./images/33146.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 600px;
+    }
+
+    .srr{
+        background-image: url(./images/68fc82fefb35df4e353bb2dbb03d0ece.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 800px;
+        height: 600px;
+        }
+@media (max-width:1180px) {
+    section{
+    display: block;
+    }
+    .taffic{
+    display: flex;
+    margin: 0 auto;
+    }
+    .sv,.sr, .srr{
+    display: flex;
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    }
+    .text{
+    margin-left: 80px;
+    font-size: 50px;
+    }
+}
